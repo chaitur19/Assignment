@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Comparing Sessions Count",
+        "description": "",
+        "id": "highchart-sessions-count;comparing-sessions-count",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6865956261,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch highcharts homepage",
+            "match": {
+              "location": "TestSessionCount.i_launch_highcharts_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17866372702,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hover on Jan 5th 2018 sessions point",
+            "match": {
+              "location": "TestSessionCount.i_hover_on_Jan_th_sessions_point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148601521,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Store sessions Count value",
+            "match": {
+              "location": "TestSessionCount.i_Store_sessions_Count_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5105983906,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Jan 5th 2018 sessions point",
+            "match": {
+              "location": "TestSessionCount.i_click_on_Jan_th_sessions_point()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6294594032,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the same sessions count value",
+            "match": {
+              "location": "TestSessionCount.i_should_see_the_same_sessions_count_value()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HighChart Sessions Count",
+    "description": "",
+    "id": "highchart-sessions-count",
+    "keyword": "Feature",
+    "uri": "Application.feature"
+  }
+]
